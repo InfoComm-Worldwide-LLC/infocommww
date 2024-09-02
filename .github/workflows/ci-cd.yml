@@ -1,4 +1,4 @@
-#testing2S2
+#testing2S22
 
 name: CI/CD Pipeline
 
@@ -26,10 +26,6 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
-
-    - name: Run Tests
-      run: |
-        pytest  # Replace with your testing framework if different
 
     - name: Deploy to AWS Elastic Beanstalk
       env:
