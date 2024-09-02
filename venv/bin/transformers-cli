@@ -1,4 +1,4 @@
-#!/home/pog/projects/infocommww3/venv/bin/python3
+#!/home/pog/projects/infocommww/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
